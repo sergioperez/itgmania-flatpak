@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>com.itgmania.ITGMania</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>MIT</project_license>
+  <name>ITGMania</name>
+  <summary>Rhythm and dance game forked from StepMania</summary>
+  <launchable type="desktop-id">com.itgmania.ITGMania.desktop</launchable>
+  <developer_name>Chris Danford, the StepMania and ITGMania development teams, et al.</developer_name>
+
+  <description>
+    <p>ITGMania is a StepMania fork improved for the post-ITG community. It is a free dance and rhythm game for Windows, Mac, and Linux. It features 3D graphics, keyboard and "dance pad" support, and an editor for creating your own steps.</p>
+  </description>
+
+  <screenshots>
+    <screenshot type="default">
+      <image width="1280" height="720">https://i.imgur.com/kaIyS4K.png</image>
+    </screenshot>
+    <screenshot>
+      <image width="1280" height="720">https://i.imgur.com/H3vkivN.png</image>
+    </screenshot>
+  </screenshots>
+
+  <url type="homepage">https://www.itgmania.com/</url>
+  <url type="bugtracker">https://github.com/itgmania/itgmania/issues</url>
+  <url type="donation">None afaik</url>
+
+  <releases>
+    <release version="v0.9.0" date="2024-06-19"/>
+  </releases>
+
+  <content_rating type="oars-1.1" />
+</component>
