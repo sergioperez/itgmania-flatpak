@@ -19,9 +19,6 @@ modules:
       - type: archive # TODO: Remove after itgmania PR #248 is included in the stable branch
         url: https://github.com/libusb/libusb-compat-0.1/archive/refs/tags/v0.1.8.tar.gz
         sha256: 73f8023b91a4359781c6f1046ae84156e06816aa5c2916ebd76f353d41e0c685
-    config-opts:
-      - -DCMAKE_BUILD_TYPE=Debug
-#     - -DWITH_FULL_RELEASE=On
   - name: itgmania
     buildsystem: cmake
     config-opts:
